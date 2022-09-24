@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+font-family: 'Oswald', sans-serif;
+padding: 0;
+margin: 0;
+}
+
+html{
+    background-image: url("img/fond.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: white;
+    width: 700px;
+    height: 830px;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+.navbar nav ul{
+    padding: 60px;
+    margin-left: 250px;
+}
+.first li{
+    display: inline;
+    text-align: right;
+
+
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    text-decoration: underline;
+}
+img{
+    float: left;
+}
+.header-color{
+    background-color: rgb(184, 203, 33);
+    width: 700px;
+    height: 170px;
+}
+.eco{
+    float: left;
+}
+.n1 img{
+width: 200px;
+padding-right: 20px;
+}
+.n1 button{
+    border: none;
+    background-color: rgb(184, 203, 33);
+    float: right;
+    color: white;
+    width: 90px;
+    height: 40px;
+    
+}
+.n1{
+    margin: 30px;
+}
+
+.list li{
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+    font-size: .8em;
+
+}
+h2{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+p{
+    font-size: .8em;
+}
+.f-logo{
+    width: 40px;
+    height: 40px;
+}
+.ft{
+    height: 80px;
+    width: fit-content;
+    display: block;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    
+}
+.credit p{
+    font-size: .6em;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0px;
+
+}
+.list{
+    margin-left: 40px;
+}
